@@ -39,7 +39,3 @@
 .loginBtn:hover {
   background: lightsteelblue;
 }
-
-.loginLink {
-  color: hsl(0, 0%, 100%);
-}

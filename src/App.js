@@ -1,9 +1,16 @@
-import Layout from './components/Layout'
-
-import Register from './components/Register'
-import Login from './components/Login'
-import RequireAuth from './components/RequireAuth'
 import { Routes, Route } from 'react-router-dom'
+import Layout from './components/Layout'
+import Login from './components/Login'
+import Register from './components/Register'
+import LinkPage from './components/LinkPage'
+import Unauthorized from './components/Unauthorized'
+import Home from './components/Home'
+import Editor from './components/Editor'
+import Admin from './components/Admin'
+import Lounge from './components/Lounge'
+import Missing from './components/Missing'
+
+import RequireAuth from './components/RequireAuth'
 
 const App = () => {
   return (

@@ -1,4 +1,5 @@
 import { useRef, useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import styles from './Register.module.css'
 const USER_REGEX = /^[a-zA-Z][a-zA-Z0-9-_]{3,23}$/
 const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/
@@ -349,9 +350,8 @@ const Register = () => {
           <p>
             Already registered?
             <br />
-            <span className={styles.line}>
-              {/*  router link here  */}
-              <a href='#'>Sign In</a>
+            <span className='line'>
+              <Link to='/'>Sign In</Link>
             </span>
           </p>
         </section>
